@@ -1,8 +1,5 @@
 package lang;
 
-import java.awt.*;
-import java.util.Objects;
-
 /**
  * Lernziel:
  * - Bedeutung der Object-Methoden

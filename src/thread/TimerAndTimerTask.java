@@ -1,7 +1,6 @@
 package thread;
 
 import java.time.LocalTime;
-import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 

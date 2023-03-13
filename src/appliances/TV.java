@@ -1,7 +1,5 @@
 package appliances;
 
-import java.util.Random;
-
 public class TV {
     private int channel;
     private boolean isOn;

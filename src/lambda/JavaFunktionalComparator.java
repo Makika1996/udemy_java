@@ -1,8 +1,6 @@
 package lambda;
 
 import java.util.Comparator;
-import java.util.function.ToIntFunction;
-
 /**
  * Lernziel: Comparator-Exemplare aufbauen und verketten
  * - Statische Methode zum Aufbau neuer Comparatoe-Exemplare, Key-Extractor

@@ -1,6 +1,5 @@
 package thread;
 
-import javax.swing.plaf.TableHeaderUI;
 import java.time.LocalTime;
 
 /**

@@ -1,7 +1,6 @@
 package lang;
 
 import java.util.*;
-
 import static lang.Range.range;
 
 /**
