@@ -1,0 +1,35 @@
+package nested;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Locale;
+import java.util.function.Predicate;
+
+/**
+ * Lernziel: Lokaler (innerer) Typ
+ * - Variablenzugriffe
+ * - effective final
+ */
+public class LocalInnerType {
+    public static void main(String[] args) {
+        class EmptyPredicate implements Predicate<String> {
+
+            @Override
+            public boolean test(String s) {
+                return s.isEmpty();
+            }
+        }
+        Predicate<String> foo = foo(".txt");
+    }
+
+    static public Predicate<String> foo(String string) {
+        String string2 = string.toLowerCase(Locale.ROOT);
+        class ContainsPredicate implements Predicate<String> {
+            @Override
+            public boolean test(String s) {
+                return s.toLowerCase(Locale.ROOT).contains(string);
+            }
+        }
+        return new ContainsPredicate();
+    }
+}

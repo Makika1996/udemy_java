@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-07T16:13:47.308355400Z</date>
+  <millis>1678205627308</millis>
+  <nanos>355400</nanos>
+  <sequence>0</sequence>
+  <logger>javaselib.Lines</logger>
+  <level>FINEST</level>
+  <class>javaselib.Lines</class>
+  <method>printLine</method>
+  <thread>1</thread>
+  <message>Print a line</message>
+</record>
+</log>
+März 07, 2023 5:15:03 PM javaselib.Lines printLine
+AM FEINSTEN: Print a line
+März 07, 2023 5:16:17 PM javaselib.Lines printLine
+AM FEINSTEN: Print a line
+März 07, 2023 5:16:17 PM javaselib.Lines printLine
+SCHWERWIEGEND: sadfasdf
+März 07, 2023 5:17:19 PM javaselib.Lines printLine
+AM FEINSTEN: Print a line of length6
