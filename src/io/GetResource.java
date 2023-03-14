@@ -1,4 +1,4 @@
-package de.tutego.io;
+package io;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,8 +13,6 @@ import java.nio.file.Paths;
  * - Wo ist die Wurzel?
  * - Klassenpfad
  * - `Class`-Objekte
- *
- * @see JavaIoFileAndJavaAwtDesktop
  */
 public class GetResource {
   public void main() {
