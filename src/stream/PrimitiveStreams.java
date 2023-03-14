@@ -1,4 +1,4 @@
-package de.tutego.stream;
+package stream;
 
 import java.util.stream.IntStream;
 
@@ -6,9 +6,8 @@ import java.util.stream.IntStream;
  * Lernziel: Primitive Streams
  * - Aggregations-Funktionen
  * - Ranges
- *
- * @see de.tutego.io.JavaNioFileFileSystemPathPaths
  */
+
 public class PrimitiveStreams {
   public static void main( String[] args ) {
 
