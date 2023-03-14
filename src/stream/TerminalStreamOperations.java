@@ -1,14 +1,9 @@
-package de.tutego.stream;
+package stream;
 
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
  * Lernziel: Terminale Operationen auf einem Stream
- *
- * @see IntermediateStreamOperations
  */
 public class TerminalStreamOperations {
   public static void main( String[] args ) {
