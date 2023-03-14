@@ -1,4 +1,4 @@
-package de.tutego.io;
+package io;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,9 +11,8 @@ import java.util.List;
  * - Schlüsselwort `transient`
  * - `private static final long serialVersionUID`
  * - Methoden `readObject(...)` und `writeObject(...)`
- *
- * @see GetResource
  */
+
 public class SerializationDeserialization {
   public static void main( String[] args ) {
     ByteArrayOutputStream baos = new ByteArrayOutputStream();
