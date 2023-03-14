@@ -1,12 +1,11 @@
-package de.tutego.stream;
+package stream;
 
 import java.util.Comparator;
 
 /**
  * Lernziel: Intermediäre Operationen auf einem Stream
- *
- * @see PrimitiveStreams
  */
+
 public class IntermediateStreamOperations {
   public static void main( String[] args ) {
     ArtistRepository.artists().stream()
