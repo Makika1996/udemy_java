@@ -1,4 +1,4 @@
-package de.tutego.stream;
+package stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
