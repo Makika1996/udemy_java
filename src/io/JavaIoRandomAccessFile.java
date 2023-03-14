@@ -1,4 +1,4 @@
-package de.tutego.io;
+package io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -7,8 +7,6 @@ import java.io.RandomAccessFile;
  * Lernziel: Wahlfreier Dateizugriff mit `RandomAccessFile`
  * - Access-Mode
  * - Schnittstellen `DataOutput`, `DataInput`
- *
- * @see de.tutego.net.IpAddress
  */
 public class JavaIoRandomAccessFile {
   public static void main( String[] args ) {
