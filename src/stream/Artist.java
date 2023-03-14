@@ -1,4 +1,7 @@
 package stream;
+
+import java.util.List;
+
 public class Artist {
   public final String name;
   public final List<Song> songs;

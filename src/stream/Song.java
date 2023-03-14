@@ -1,4 +1,4 @@
-package de.tutego.stream;
+package stream;
 
 public class Song {
   public final String title;
