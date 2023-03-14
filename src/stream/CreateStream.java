@@ -1,12 +1,11 @@
-package de.tutego.stream;
+package stream;
 
 /**
  * Lernziel: Stream-API und Stream aufbauen
  * - API-Überblick
  * - Diverse Stream-Erzeuger
- *
- * @see TerminalStreamOperations
  */
+
 public class CreateStream {
   public static void main( String[] args ) {
 
